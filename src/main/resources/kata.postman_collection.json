@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "41c8c787-8eac-4978-99a0-a85bfc09f3f7",
+		"name": "kata",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26603212"
+	},
+	"item": [
+		{
+			"name": "ParseNumber",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/parse/15",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"parse",
+						"15"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
